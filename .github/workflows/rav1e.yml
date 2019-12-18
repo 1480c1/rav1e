@@ -2,11 +2,7 @@ name: rav1e
 
 on:
   push:
-    branches:
-      - master
   pull_request:
-    branches:
-      - master
 
 jobs:
   rustfmt-clippy:
